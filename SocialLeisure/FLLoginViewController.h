@@ -1,5 +1,5 @@
 //
-//  FLViewController.h
+//  FLLoginViewController.h
 //  SocialLeisure
 //
 //  Created by Maciej Lobodzinski on 25.12.2012.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FacebookSDK/FacebookSDK.h>
 
-@interface FLViewController : UIViewController
+@interface FLLoginViewController : UIViewController
 
 @end

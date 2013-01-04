@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E637C769168B530B00252647 /* FLFejsLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E637C767168B530B00252647 /* FLFejsLoginViewController.m */; };
+		E637C76A168B530B00252647 /* FLFejsLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E637C768168B530B00252647 /* FLFejsLoginViewController.xib */; };
+		E637C778168B595F00252647 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E637C777168B595F00252647 /* FBUserSettingsViewResources.bundle */; };
+		E6C4F749168A45FB0038F679 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4F748168A45FB0038F679 /* FacebookSDK.framework */; };
+		E6C4F74C168A46310038F679 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6C4F74B168A46310038F679 /* FacebookSDKResources.bundle */; };
+		E6C4F801168A4CF50038F679 /* FLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C4F7FF168A4CF40038F679 /* FLViewController_iPhone.xib */; };
+		E6C4F802168A4CF50038F679 /* FLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C4F800168A4CF40038F679 /* FLViewController_iPad.xib */; };
+		E6E2A46D168A4DCC00A603A9 /* FLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2A46B168A4DCC00A603A9 /* FLLoginViewController.m */; };
+		E6E2A46E168A4DCC00A603A9 /* FLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E2A46C168A4DCC00A603A9 /* FLLoginViewController.xib */; };
 		E6FF70B0168A45880011FABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF70AF168A45880011FABF /* UIKit.framework */; };
 		E6FF70B2168A45880011FABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF70B1168A45880011FABF /* Foundation.framework */; };
 		E6FF70B4168A45880011FABF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF70B3168A45880011FABF /* CoreGraphics.framework */; };
@@ -17,11 +26,23 @@
 		E6FF70C4168A45880011FABF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FF70C3168A45880011FABF /* Default@2x.png */; };
 		E6FF70C6168A45880011FABF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FF70C5168A45880011FABF /* Default-568h@2x.png */; };
 		E6FF70C9168A45880011FABF /* FLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FF70C8168A45880011FABF /* FLViewController.m */; };
-		E6FF70CC168A45880011FABF /* FLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FF70CA168A45880011FABF /* FLViewController_iPhone.xib */; };
-		E6FF70CF168A45880011FABF /* FLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FF70CD168A45880011FABF /* FLViewController_iPad.xib */; };
+		E6FF70D8168A459A0011FABF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF70D5168A459A0011FABF /* Accounts.framework */; };
+		E6FF70D9168A459A0011FABF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF70D6168A459A0011FABF /* AdSupport.framework */; };
+		E6FF70DA168A459A0011FABF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF70D7168A459A0011FABF /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E637C766168B530B00252647 /* FLFejsLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFejsLoginViewController.h; sourceTree = "<group>"; };
+		E637C767168B530B00252647 /* FLFejsLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFejsLoginViewController.m; sourceTree = "<group>"; };
+		E637C768168B530B00252647 /* FLFejsLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLFejsLoginViewController.xib; sourceTree = "<group>"; };
+		E637C777168B595F00252647 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		E6C4F748168A45FB0038F679 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		E6C4F74B168A46310038F679 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		E6C4F7FF168A4CF40038F679 /* FLViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLViewController_iPhone.xib; sourceTree = "<group>"; };
+		E6C4F800168A4CF40038F679 /* FLViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLViewController_iPad.xib; sourceTree = "<group>"; };
+		E6E2A46A168A4DCC00A603A9 /* FLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLLoginViewController.h; path = ../FLLoginViewController.h; sourceTree = "<group>"; };
+		E6E2A46B168A4DCC00A603A9 /* FLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLLoginViewController.m; path = ../FLLoginViewController.m; sourceTree = "<group>"; };
+		E6E2A46C168A4DCC00A603A9 /* FLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FLLoginViewController.xib; path = ../FLLoginViewController.xib; sourceTree = "<group>"; };
 		E6FF70AB168A45880011FABF /* SocialLeisure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialLeisure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FF70AF168A45880011FABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6FF70B1168A45880011FABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +58,9 @@
 		E6FF70C5168A45880011FABF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E6FF70C7168A45880011FABF /* FLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLViewController.h; sourceTree = "<group>"; };
 		E6FF70C8168A45880011FABF /* FLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLViewController.m; sourceTree = "<group>"; };
-		E6FF70CB168A45880011FABF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLViewController_iPhone.xib; sourceTree = "<group>"; };
-		E6FF70CE168A45880011FABF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLViewController_iPad.xib; sourceTree = "<group>"; };
+		E6FF70D5168A459A0011FABF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E6FF70D6168A459A0011FABF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E6FF70D7168A459A0011FABF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +68,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FF70D8168A459A0011FABF /* Accounts.framework in Frameworks */,
+				E6FF70D9168A459A0011FABF /* AdSupport.framework in Frameworks */,
+				E6FF70DA168A459A0011FABF /* Social.framework in Frameworks */,
 				E6FF70B0168A45880011FABF /* UIKit.framework in Frameworks */,
 				E6FF70B2168A45880011FABF /* Foundation.framework in Frameworks */,
 				E6FF70B4168A45880011FABF /* CoreGraphics.framework in Frameworks */,
+				E6C4F749168A45FB0038F679 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +101,12 @@
 		E6FF70AE168A45880011FABF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E637C777168B595F00252647 /* FBUserSettingsViewResources.bundle */,
+				E6FF70D5168A459A0011FABF /* Accounts.framework */,
+				E6FF70D6168A459A0011FABF /* AdSupport.framework */,
+				E6FF70D7168A459A0011FABF /* Social.framework */,
+				E6C4F74B168A46310038F679 /* FacebookSDKResources.bundle */,
+				E6C4F748168A45FB0038F679 /* FacebookSDK.framework */,
 				E6FF70AF168A45880011FABF /* UIKit.framework */,
 				E6FF70B1168A45880011FABF /* Foundation.framework */,
 				E6FF70B3168A45880011FABF /* CoreGraphics.framework */,
@@ -85,12 +117,18 @@
 		E6FF70B5168A45880011FABF /* SocialLeisure */ = {
 			isa = PBXGroup;
 			children = (
+				E6E2A46A168A4DCC00A603A9 /* FLLoginViewController.h */,
+				E6E2A46B168A4DCC00A603A9 /* FLLoginViewController.m */,
+				E6E2A46C168A4DCC00A603A9 /* FLLoginViewController.xib */,
 				E6FF70BE168A45880011FABF /* FLAppDelegate.h */,
 				E6FF70BF168A45880011FABF /* FLAppDelegate.m */,
 				E6FF70C7168A45880011FABF /* FLViewController.h */,
 				E6FF70C8168A45880011FABF /* FLViewController.m */,
-				E6FF70CA168A45880011FABF /* FLViewController_iPhone.xib */,
-				E6FF70CD168A45880011FABF /* FLViewController_iPad.xib */,
+				E6C4F7FF168A4CF40038F679 /* FLViewController_iPhone.xib */,
+				E6C4F800168A4CF40038F679 /* FLViewController_iPad.xib */,
+				E637C766168B530B00252647 /* FLFejsLoginViewController.h */,
+				E637C767168B530B00252647 /* FLFejsLoginViewController.m */,
+				E637C768168B530B00252647 /* FLFejsLoginViewController.xib */,
 				E6FF70B6168A45880011FABF /* Supporting Files */,
 			);
 			path = SocialLeisure;
@@ -166,8 +204,12 @@
 				E6FF70C2168A45880011FABF /* Default.png in Resources */,
 				E6FF70C4168A45880011FABF /* Default@2x.png in Resources */,
 				E6FF70C6168A45880011FABF /* Default-568h@2x.png in Resources */,
-				E6FF70CC168A45880011FABF /* FLViewController_iPhone.xib in Resources */,
-				E6FF70CF168A45880011FABF /* FLViewController_iPad.xib in Resources */,
+				E6C4F74C168A46310038F679 /* FacebookSDKResources.bundle in Resources */,
+				E6C4F801168A4CF50038F679 /* FLViewController_iPhone.xib in Resources */,
+				E6C4F802168A4CF50038F679 /* FLViewController_iPad.xib in Resources */,
+				E6E2A46E168A4DCC00A603A9 /* FLLoginViewController.xib in Resources */,
+				E637C76A168B530B00252647 /* FLFejsLoginViewController.xib in Resources */,
+				E637C778168B595F00252647 /* FBUserSettingsViewResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +223,8 @@
 				E6FF70BC168A45880011FABF /* main.m in Sources */,
 				E6FF70C0168A45880011FABF /* FLAppDelegate.m in Sources */,
 				E6FF70C9168A45880011FABF /* FLViewController.m in Sources */,
+				E6E2A46D168A4DCC00A603A9 /* FLLoginViewController.m in Sources */,
+				E637C769168B530B00252647 /* FLFejsLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +237,6 @@
 				E6FF70B9168A45880011FABF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E6FF70CA168A45880011FABF /* FLViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6FF70CB168A45880011FABF /* en */,
-			);
-			name = FLViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		E6FF70CD168A45880011FABF /* FLViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6FF70CE168A45880011FABF /* en */,
-			);
-			name = FLViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -238,6 +266,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -260,6 +289,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -269,6 +299,10 @@
 		E6FF70D3168A45880011FABF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocialLeisure/SocialLeisure-Prefix.pch";
 				INFOPLIST_FILE = "SocialLeisure/SocialLeisure-Info.plist";
@@ -280,6 +314,10 @@
 		E6FF70D4168A45880011FABF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocialLeisure/SocialLeisure-Prefix.pch";
 				INFOPLIST_FILE = "SocialLeisure/SocialLeisure-Info.plist";
@@ -307,6 +345,7 @@
 				E6FF70D4168A45880011FABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
